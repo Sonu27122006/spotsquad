@@ -1,0 +1,28 @@
+{
+  "name": "parkingspot-smart-parking",
+  "version": "2.0.0",
+  "description": "ParkingSpot – Smart Parking Reservation Platform (MongoDB, Express, React, Node)",
+  "scripts": {
+    "start": "node start-all.js",
+    "dev": "node start-all.js",
+    "stop": "node stop-all.js",
+    "backend": "cd backend && node server.js",
+    "backend:watch": "cd backend && node --watch server.js",
+    "frontend": "cd frontend && npm run dev",
+    "seed-data": "cd backend && node scripts/seed.js",
+    "test": "powershell -ExecutionPolicy Bypass -File ./tests/e2e-test.ps1"
+  },
+  "keywords": [
+    "parking",
+    "reservation",
+    "mongodb",
+    "mongoose",
+    "express",
+    "react",
+    "jwt",
+    "razorpay",
+    "maps"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+requests>=2.28.0
+# Optional libraries for real hardware camera & OCR on Raspberry Pi:
+# opencv-python>=4.7.0
+# pytesseract>=0.3.10
+# picamzero>=0.1.0
